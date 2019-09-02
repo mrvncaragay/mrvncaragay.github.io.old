@@ -1513,19 +1513,20 @@ input, select, textarea {
 	}
 
 	.prog-lang {
-		flex: 1;
+		margin-top: 10%;
+		margin-bottom: 15px;
 	}
 
 	.backend {
-		flex: 1;
+		margin-bottom: 15px;
 	}
 
 	.frontend {
-		flex: 1;
+		margin-bottom: 15px;
 	}
 
 	.other {
-		flex: 1;
+		margin-bottom: 15px;
 	}
 
 	.prog-lang h6, .backend h6, .frontend h6, .other h6, 
