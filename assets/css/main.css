@@ -1475,8 +1475,8 @@ input, select, textarea {
 	}
 
 	#resume {
-		display: flex;
-		height: 1200px
+		display: none;
+		height: 1100px;
 	}
 
 	.overview {
