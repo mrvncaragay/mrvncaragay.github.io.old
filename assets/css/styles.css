@@ -1,3 +1,20 @@
+.panel.intro h2 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  color: #777777;
+  font-weight: inherit;
+}
+
+.panel.intro p {
+  font-size: 23px !important;
+  margin-bottom: 15px;
+}
+
+.panel.intro span {
+  font-size: 32px;
+  font-weight: 500;
+}
+
 #projects header h2 {
   margin-bottom: 20px;
 }
