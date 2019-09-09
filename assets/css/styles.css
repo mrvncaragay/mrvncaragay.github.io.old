@@ -79,12 +79,6 @@
   font-weight: 400;
 }
 
-.resp-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-}
-
 .resp-iframe {
   position: absolute;
   top: 0;
@@ -94,12 +88,20 @@
   border: 0;
 }
 
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
 @media only screen and (max-width: 600px) {
   .technology span {
     margin-bottom: 15px;
   }
 
   .resp-container {
-    height: 450px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
   }
 }

@@ -1475,7 +1475,8 @@ input, select, textarea {
 	}
 
 	#resume {
-		display: flex
+		display: flex;
+		height: 1200px
 	}
 
 	.overview {
@@ -1508,6 +1509,8 @@ input, select, textarea {
 
 		#resume {
 			flex-direction: column;
+			height: 550px
+		
 		}
 
 	}
