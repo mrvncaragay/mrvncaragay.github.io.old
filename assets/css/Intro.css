@@ -1,0 +1,54 @@
+/* Intro */
+
+#intro {
+  /* background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to left bottom, #9E9E9E, white);
+  background-attachment: fixed;
+  background-image: url("images/bg.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#intro h1 {
+  line-height: 0.6;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+#intro h5 {
+  line-height: 0.6;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+  #intro p {
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 32px;
+    color: white;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #intro p br {
+        display: none;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #intro p {
+        font-size: 1em;
+      }
+
+    }
+
+  @media screen and (max-width: 1280px) {
+
+    #intro {
+      background-attachment: scroll;
+    }
+
+  }

@@ -1,0 +1,12 @@
+.about-me {
+  min-height: 1200px;
+  background-image: -moz-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
+  background-image: -webkit-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
+  background-image: -ms-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
+  background-image: linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
+}
+
+#about .content.about-me {
+  width: 100%;
+  justify-content: flex-start;
+}
