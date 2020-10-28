@@ -1,4 +1,4 @@
-<div class="inner">
+export const intro = `<div class="inner">
   <h1>Hello,</h1>
   <h1>I'm Marvin Caragay.</h1>
   <h5>Software Engineer</h5>
@@ -8,4 +8,4 @@
   <ul class="actions">
     <li><a href="#about" class="button scrolly">learn more</a></li>
   </ul>
-</div>
+</div>`;

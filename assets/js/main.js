@@ -1,17 +1,14 @@
+import { sidebar } from './sidebar.js'
+import { intro } from './intro.js'
+import { about } from './about.js'
+import { contact } from './contact.js'
+
 const main = async () => {
-	const files = ["sidebar", "intro", "about", "contact"];
-
-	const promiseFiles = files.map(file => loadFilesPromise(file))
-
-	await Promise.all(promiseFiles);
+	$('#sidebar').append(sidebar);
+	$('#intro').append(intro);
+	$('#about').append(about);
+	$('#contact').append(contact);
 	helper(jQuery);
-};
-
-
-const loadFilesPromise  = (file) => {
-	return new Promise((resolve)  => {
-		$(`#${file}`).load(`./src/${file}.html`, () => resolve());
-	})
 };
 
 const helper = function($) {
@@ -43,7 +40,6 @@ const helper = function($) {
 
 		// Hack: Activate non-input submits.
 			$('form').on('click', '.submit', function(event) {
-
 				// Stop propagation, default.
 					event.stopPropagation();
 					event.preventDefault();
@@ -57,15 +53,18 @@ const helper = function($) {
 		if ($sidebar.length > 0) {
 
 			var $sidebar_a = $sidebar.find('a');
+
 			$sidebar_a
 				.addClass('scrolly')
 				.on('click', function() {
-
+					console.log($sidebar_a)
 					var $this = $(this);
 					// External link? Bail.
-						if ($this.attr('href').charAt(0) != '#')
+						if ($this.attr('href').charAt(0) != '#') {
+							$('#resume-link').attr('href', 'https://tungkolsakin.s3-us-west-1.amazonaws.com/Resume_MarvinCaragay.pdf');
 							return;
-
+						}	
+						
 					// Deactivate all links.
 						$sidebar_a.removeClass('active');
 
@@ -193,7 +192,6 @@ const helper = function($) {
 
 				}
 			});
-
 };
 
 main();

@@ -1,3 +1,4 @@
+export const contact = `
 <div class="inner">
   <h2>Send a message</h2>
   <div class="split style1">
@@ -44,3 +45,4 @@
     </section>
   </div>
 </div>
+`;

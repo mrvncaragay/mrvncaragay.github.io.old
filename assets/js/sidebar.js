@@ -1,4 +1,5 @@
-<!-- Sidebar -->
+
+export const sidebar = `
 <div class="inner">
   <nav>
     <ul>
@@ -6,7 +7,8 @@
       <li><a href="#about">About</a></li>
       <li><a href="#two">Project</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="https://tungkolsakin.s3-us-west-1.amazonaws.com/Resume_MarvinCaragay.pdf" target="_blank">Resume</a></li>
+      <li><a id="resume-link" href="" target="_blank">Resume</a></li>
     </ul>
   </nav>
 </div>
+`;

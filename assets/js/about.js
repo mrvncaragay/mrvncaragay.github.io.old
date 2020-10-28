@@ -1,4 +1,4 @@
-<!-- One -->
+export const about = `
 <section>
   <div class="content about-me">
     <div class="inner">
@@ -31,3 +31,4 @@
     </div>
   </div>
 </section>
+`;
