@@ -3236,11 +3236,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #24272c;
+			min-height: 800px;
 		}
 
 		.wrapper.style1-alt {
-			background-color: white;
+			background-color: #24272c;
 		}
 
 		.wrapper.style2 {

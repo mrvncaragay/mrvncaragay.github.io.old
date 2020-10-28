@@ -1,5 +1,5 @@
 const main = async () => {
-	const files = ["sidebar", "intro", "about"];
+	const files = ["sidebar", "intro", "about", "contact"];
 
 	const promiseFiles = files.map(file => loadFilesPromise(file))
 
