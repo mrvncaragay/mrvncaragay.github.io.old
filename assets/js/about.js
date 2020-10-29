@@ -3,12 +3,12 @@ export const about = `
   <div class="content about-me">
     <div class="inner">
       <h2>"It is better to be clear than to be clever."</h2>
-      <p style="color: white">
+      <p>
         I'm Marvin Caragay, but you can call me Marv. 
         I am a Software Engineer with an IT background and burning passion for turning ideas into software product. 
         Currently, I've been developing and honing my skills in building applications for the web and mobile using JavaScript.</p>
       
-      <p style="color: white">
+      <p>
         My goal is to deliver beautiful solutions that amaze and excite end users, while keeping in mind scalability, maintainability, and readability. 
       </p>
 
@@ -17,13 +17,13 @@ export const about = `
         <li><a href="https://www.linkedin.com/in/mrvncaragay/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
       </ul>
 
-      <h4>Skills</h4>
-      <p style="color: white">
-        <b>FrontEnd​:</b> JavaScript ES6+, React, React Native, Redux, TypeScript, HTML, CSS, jQuery, Babel, Webpack, Material-UI, Styled-Components, Bootstrap
+      <h3>Skills</h3>
+      <p>
+        <b>Frontend​:</b> JavaScript ES6+, React, React Native, Redux, TypeScript, HTML, CSS, jQuery, Babel, Webpack, Material-UI, Styled-Components, Bootstrap
         <br />
         <b>Backend:</b> Node, Express, MySQL, MongoDB, PostgreSQL, Docker, GraphQL, Redis, Nginx, AWS (EC2, S3) 
         <br />
-        <b>Familiar:</b>​ Cassandra, Linux, Git, Mocha/Chai, Jest/Enzyme, Next
+        <b>Familiar:</b>​ Cassandra, Linux, Git, Mocha/Chai, Jest/Enzyme, Next.js
       </p>
       <ul class="actions">
         <li><a href="#two" class="button scrolly">Projects</a></li>

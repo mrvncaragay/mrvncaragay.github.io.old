@@ -1,22 +1,14 @@
-.about-me {
-  min-height: 1200px;
-  background-image: -moz-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
-  background-image: -webkit-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
-  background-image: -ms-linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
-  background-image: linear-gradient(to bottom left, #3D3D3D, #BDBDBD);
-}
-
 #about .content.about-me {
   width: 100%;
   justify-content: flex-start;
 }
 
-.about-me p {
+.about-me, .content p {
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin-bottom: 10px;
-  letter-spacing: 1.2px;;
+  letter-spacing: 1.2px;
 }
 
 .about-me h2 {
@@ -25,8 +17,9 @@
   letter-spacing: 1px;;
 }
 
-.about-me h4 {
-  font-weight: 300;
+.about-me h3 {
+  font-weight: 400;
+  font-size: 18px;
   margin-bottom: 10px;
   letter-spacing: 1px;;
 }
