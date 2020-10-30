@@ -2,12 +2,14 @@ import { sidebar } from './sidebar.js'
 import { intro } from './intro.js'
 import { about } from './about.js'
 import { contact } from './contact.js'
+import { project } from './project.js'
 
 const main = async () => {
 	$('#sidebar').append(sidebar);
 	$('#intro').append(intro);
 	$('#about').append(about);
 	$('#contact').append(contact);
+	$('#project').append(project);
 	helper(jQuery);
 };
 

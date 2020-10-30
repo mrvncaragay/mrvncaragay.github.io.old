@@ -1,6 +1,7 @@
 #about .content.about-me {
   width: 100%;
   justify-content: flex-start;
+  padding-bottom: 56px !important; 
 }
 
 .about-me, .content p {

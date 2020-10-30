@@ -26,7 +26,7 @@ export const about = `
         <b>Familiar:</b>​ Cassandra, Linux, Git, Mocha/Chai, Jest/Enzyme, Next.js
       </p>
       <ul class="actions">
-        <li><a href="#two" class="button scrolly">Projects</a></li>
+        <li><a href="#project" class="button scrolly">Projects</a></li>
       </ul>
     </div>
   </div>
