@@ -2,7 +2,7 @@ export const project = `
 <section>
 <!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a> -->
 <div class="content project">
-  <div class="inner">
+  <div class="inner one">
     <h2>Ravingz</h2>
     <p>
       Ravingz is a group of four software engineers and our task was to extend the capabilities of the 
@@ -48,35 +48,31 @@ export const project = `
 <section>
 <!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a> -->
 <div class="content project">
-  <div class="inner">
+  <div class="inner two">
     <h2>Himm</h2>
     <p>
-      The task of our group is to build a UI of a Property Reservation Page (PRP) using
+      The task of our group is to build a UI of a Property Reservation System (PRS) using
       Service Oriented Architecture (SOA) and deploy all services using Dockerized containers on AWS EC2 instances. 
-      PRP has four different components: images, profile, reservation form, and reviews. 
+      PRS has four different components: images, profile, reservation form, and reviews. 
       Each component must have its own server and database that renders the component’s UI. 
       All engineers must also implement a proxy server that will fetch all the components’ assets and display a coherent user experience.
     </p>
 
     <b>Problem </b> 
     <p>
-      Implementing the reservation form service that requires frequent updates to the DOM using plain JavaScript is very complex. 
+      Implementing the reservation form service that requires frequent updates to the DOM using plain JavaScript is simply complicated. 
     </p>
     
     <b>Action </b> 
       <p>
-        &emsp; &#9679; Implemented load balancing technique using nginx to distribute traffic to a multiple see all photos’ servers. 
+        &emsp; &#9679; Implement the reservation form service using React hooks to simplify the composition of components. 
         <br />
-        &emsp; &#9679; Utilized horizontal scaling by adding three additional t2.micro instances of see all photos server.
-        <br />
-        &emsp; &#9679; Deployed four Cassandra servers to uniformly distribute data across multiple nodes.
+        &emsp; &#9679; Leverage Context and useReducer to easily manage the state of the reservation form.
       </p>
     
     <b>Result </b>​
       <p>
-      Highly performant application that is capable of handling above 1000 rps with less than 1% error rate. 
-      It supports high data availability.
-        
+        Components are easier to maintain, faster development, promotes code reuse, and efficient.
       </p>
     
     <ul class="icons">
@@ -85,7 +81,7 @@ export const project = `
 
     <h5>Technologies</h5>
     <p>
-      JavaScript, React, Node, Express, HTML/CSS, Cassandra, AWS (EC2, S3), New Relic, Loader.io, Jmeter
+      React (hooks), Node, Express, HTML/CSS, AWS (EC2), Docker, MongoDB, Styled-components
     </p>
   </div>
 </div>

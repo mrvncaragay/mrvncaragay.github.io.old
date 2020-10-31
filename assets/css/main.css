@@ -3077,7 +3077,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 2560px) {
 
 			.spotlights > section > .content {
 				padding: 4em 4em 2em 4em ;
