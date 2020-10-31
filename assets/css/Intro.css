@@ -43,6 +43,9 @@
         font-size: 1em;
       }
 
+      #intro h5 {
+        line-height: 1.5;
+      }
     }
 
   @media screen and (max-width: 1280px) {

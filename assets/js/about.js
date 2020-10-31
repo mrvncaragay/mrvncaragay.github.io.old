@@ -23,7 +23,7 @@ export const about = `
         <br />
         <b>Backend:</b> Node, Express, MySQL, MongoDB, PostgreSQL, Docker, GraphQL, Redis, Nginx, AWS (EC2, S3) 
         <br />
-        <b>Familiar:</b>​ Cassandra, Linux, Git, Mocha/Chai, Jest/Enzyme, Next.js
+        <b>Familiar:</b>​ Agile(scrum), npm, Cassandra, Linux, Git, Mocha/Chai, Jest/Enzyme, Next.js, New Relic, Loader.io, Jmeter
       </p>
       <ul class="actions">
         <li><a href="#project" class="button scrolly">Projects</a></li>
