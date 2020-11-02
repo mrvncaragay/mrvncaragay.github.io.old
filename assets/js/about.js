@@ -5,7 +5,7 @@ export const about = `
       <h2>"It is better to be clear than to be clever."</h2>
       <p>
         I'm Marvin Caragay, but you can call me Marv. 
-        I am a Software Engineer with an IT background and burning passion for turning ideas into software product. 
+        I am a Software Engineer based in Bay Area, CA. 
         Currently, I've been developing and honing my skills in building applications for the web and mobile using JavaScript.</p>
       
       <p>
