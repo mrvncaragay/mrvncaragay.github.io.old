@@ -3,6 +3,8 @@ import { intro } from './intro.js'
 // import { about } from './about.js'
 import { contact } from './contact.js'
 import { project } from './project.js'
+import { himm } from './project-himm.js';
+import { ravingz } from './project-ravingz.js';
 
 const main = async () => {
 	$('#sidebar').append(sidebar);
@@ -10,6 +12,8 @@ const main = async () => {
 	// $('#about').append(about);
 	$('#contact').append(contact);
 	$('#project').append(project);
+	$('.ravingz').append(ravingz);
+	$('.himm').append(himm);
 	helper(jQuery);
 };
 
