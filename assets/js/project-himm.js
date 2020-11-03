@@ -1,5 +1,6 @@
 export const himm = `<div class="inner two">
     <h2>Himm</h2>
+    <h5>(Service Architecture Design)</h5>
     <p>
       The task of our group is to build a UI of a Property Reservation System (PRS) using
       Service Oriented Architecture (SOA) and deploy all services using Dockerized containers on AWS EC2 instances. 

@@ -1,5 +1,6 @@
 export const ravingz = `<div class="inner one">
 <h2>Ravingz</h2>
+<h5>(System Architecture Design)</h5>
 <p>
   Ravingz is a group of four software engineers and our task was to extend the capabilities of the 
   database and server layer to support web scale operation of an existing application called Wonder4. 

@@ -5,7 +5,7 @@ export const colorPicker = `<div class="inner">
     <div class="image"><img src="assets/css/images/color-picker.png" alt="" /> </div>
     <div style="margin-left: 32px">
         <p>
-          A color picker app that allows users to select pre-defined colors or create their own palette.
+          A simple color picker app that allows users to select pre-defined colors or create their own palette and save it using local storage.
         </p>
         
         <ul class="icons">

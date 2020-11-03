@@ -5,7 +5,7 @@ export const intro = `<div class="inner">
   <br>
   <h5>
     After developing Lost & Found system and User Request Form while working as IT Specialist in the Hospitality industry for several years.
-    My desire to pursue my passion for Software development is unbearable to ignore.
+    My desire to pursue my passion for software development is unbearable to ignore.
   </h5>
  
   <h5>
