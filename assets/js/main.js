@@ -4,6 +4,7 @@ import { intro } from './intro.js'
 import { contact } from './contact.js'
 import { project } from './project.js'
 import { himm } from './project-himm.js';
+import { gareta } from './project-gareta.js';
 import { ravingz } from './project-ravingz.js';
 
 const main = async () => {
@@ -14,6 +15,7 @@ const main = async () => {
 	$('#project').append(project);
 	$('.ravingz').append(ravingz);
 	$('.himm').append(himm);
+	$('.gareta').append(gareta);
 	helper(jQuery);
 };
 

@@ -171,11 +171,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6, b {
 		color: #ffffff;
-		font-weight: bold;
+		font-weight: 300;
 		line-height: 1.5;
 		letter-spacing: 2px;
 		margin: 0 0 0.5em 0;
@@ -2558,7 +2559,7 @@ input, select, textarea {
 				}
 
 /* Image */
-
+/* 
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -2609,7 +2610,7 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
-			}
+			} */
 
 /* List */
 
@@ -3003,26 +3004,27 @@ input, select, textarea {
 			min-height: 0;
 		}
 
-		.spotlights > section > .image {
-			background-position: center center;
-			background-size: cover;
+	 .image {
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			margin-bottom: 14px;
 		}
 
-			.spotlights > section > .image img {
+			.image img {
 				border-radius: 0;
 				display: block;
 			}
 
-			.spotlights > section > .image:before {
+			 .image:before {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #24272c;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3085,15 +3087,15 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 2560px) {
 
 			.spotlights > section {
 				display: block;
 			}
 
-				.spotlights > section > .image {
+				.image {
 					width: 100%;
-					height: 50vh;
+					height: 400px;
 				}
 
 				.spotlights > section > .content {

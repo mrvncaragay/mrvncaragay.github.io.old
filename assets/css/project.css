@@ -4,6 +4,27 @@
   letter-spacing: 2px;
 }
 
-.inner.one {
+.one, .two {
   border-bottom: 1px solid #ffffff8C;
+}
+
+.online {
+  color: lawngreen;
+  font-size: 20px;
+}
+
+.online:hover {
+  color: lawngreen;
+}
+
+.project-with-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 980px) {
+
+  .project-with-image {
+    flex-direction: column;
+  }
 }
