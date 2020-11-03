@@ -14,7 +14,7 @@ export const gareta = `<div class="inner three">
 
         <h5>Technologies</h5>
         <p>
-          JavaScript, React (hooks), Firebase, Redux (saga, thunk), Stripe, HTML/CSS, Material-ui
+          JavaScript, React (hooks), React Native, Firebase, Redux (saga, thunk), Stripe, HTML/CSS, Material-ui
         </p>
       </div>
     </div>

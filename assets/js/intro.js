@@ -4,8 +4,8 @@ export const intro = `<div class="inner">
   <h5>Software Engineer</h5>
   <br>
   <h5>
-    After developing Lost & Found system and User Request Form while working as IT Specialist in the Hospitality industry.
-    My desire to follow my passion for Software development is unbearable.
+    After developing Lost & Found system and User Request Form while working as IT Specialist in the Hospitality industry for several years.
+    My desire to pursue my passion for Software development is unbearable to ignore.
   </h5>
  
   <h5>
@@ -13,8 +13,12 @@ export const intro = `<div class="inner">
   </h5>
 
   <h5>
-    My passion for development is incomparable. Every day I wake up excited to code and sometimes frustrated with laughter after realizing a solution in my head. 
+    My passion for development is incomparable. Every day I wake up excited to code and sometimes frustrated after realizing why my code does not work. 
     I love every aspect of turning ideas into software products and find each step of the way exciting.
+  </h5>
+
+  <h5>
+    Besides coding, I like watching bastketball and tennis, working out in the gym, visiting friends, and playing online games.
   </h5>
 
   <!-- <h5>I am a passionate developer who loves building beautiful pages for the web and mobile using JavaScript.</h5> -->

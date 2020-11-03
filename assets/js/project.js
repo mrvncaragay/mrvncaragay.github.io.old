@@ -10,4 +10,8 @@ export const project = `
 <section>
 <div class="content project gareta"></div>
 </section>
+
+<section>
+<div class="content project color-picker"></div>
+</section>
 `;

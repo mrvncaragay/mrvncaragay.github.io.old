@@ -6,6 +6,7 @@ import { project } from './project.js'
 import { himm } from './project-himm.js';
 import { gareta } from './project-gareta.js';
 import { ravingz } from './project-ravingz.js';
+import { colorPicker } from './project-color-picker.js';
 
 const main = async () => {
 	$('#sidebar').append(sidebar);
@@ -16,6 +17,7 @@ const main = async () => {
 	$('.ravingz').append(ravingz);
 	$('.himm').append(himm);
 	$('.gareta').append(gareta);
+	$('.color-picker').append(colorPicker);
 	helper(jQuery);
 };
 
