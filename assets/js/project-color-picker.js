@@ -2,7 +2,7 @@ export const colorPicker = `<div class="inner">
     <h2>Color Picker <a href="https://color-picker-3b765.firebaseapp.com/" class="online" target="_blank"><i class="fas fa-globe-americas"></i></a> </h2> 
     
     <div class="project-with-image"> 
-    <div class="image"><img src="assets/css/images/color-picker.png" alt="" /> </div>
+    <div class="image"><img src="assets/css/images/color-picker.png" alt="" /></div>
     <div style="margin-left: 32px">
         <p>
           A simple color picker app that allows users to select pre-defined colors or create their own palette and save it using local storage.

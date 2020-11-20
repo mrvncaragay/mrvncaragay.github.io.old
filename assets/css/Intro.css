@@ -31,29 +31,51 @@
   color: white;
 }
 
-    @media screen and (max-width: 980px) {
+.intro-summary {
+  flex: 1;
+}
 
-      #intro p br {
-        display: none;
-      }
+.intro-image {
+  flex: 1;
+  border: 1px solid red;
+}
 
-    }
+.image-container {
+  border: 1px solid gray;
+}
 
-    @media screen and (max-width: 736px) {
+.image-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 300px;
+  
+}
 
-      #intro p {
-        font-size: 1em;
-      }
+@media screen and (max-width: 980px) {
 
-      #intro h5 {
-        line-height: 1.5;
-      }
-    }
-
-  @media screen and (max-width: 1280px) {
-
-    #intro {
-      background-attachment: scroll;
-    }
-
+  #intro p br {
+    display: none;
   }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  #intro p {
+    font-size: 1em;
+  }
+
+  #intro h5 {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+#intro {
+  background-attachment: scroll;
+}
+
+}

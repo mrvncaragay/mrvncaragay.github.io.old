@@ -19,8 +19,8 @@
 
 .project-with-image {
   display: flex;
-  justify-content: space-between;
 }
+
 
 @media screen and (max-width: 980px) {
 

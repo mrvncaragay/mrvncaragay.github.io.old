@@ -3,17 +3,22 @@ import { intro } from './intro.js'
 // import { about } from './about.js'
 import { contact } from './contact.js'
 import { project } from './project.js'
+import { experience } from './experience.js'
 import { himm } from './project-himm.js';
 import { gareta } from './project-gareta.js';
 import { ravingz } from './project-ravingz.js';
 import { colorPicker } from './project-color-picker.js';
+import { sgb } from './volunteer-sgb.js';
 
 const main = async () => {
 	$('#sidebar').append(sidebar);
+	$('#experience').append(experience);
+	$('#about').append(about);
 	$('#intro').append(intro);
 	// $('#about').append(about);
 	$('#contact').append(contact);
 	$('#project').append(project);
+	$('.sgb').append(sgb);
 	$('.ravingz').append(ravingz);
 	$('.himm').append(himm);
 	$('.gareta').append(gareta);
@@ -67,7 +72,6 @@ const helper = function($) {
 			$sidebar_a
 				.addClass('scrolly')
 				.on('click', function() {
-					console.log($sidebar_a)
 					var $this = $(this);
 					// External link? Bail.
 						if ($this.attr('href').charAt(0) != '#') {
