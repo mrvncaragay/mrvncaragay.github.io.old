@@ -75,7 +75,7 @@ const helper = function($) {
 					var $this = $(this);
 					// External link? Bail.
 						if ($this.attr('href').charAt(0) != '#') {
-							$('#resume-link').attr('href', 'https://tungkolsakin.s3-us-west-1.amazonaws.com/Resume_MarvinCaragay.pdf');
+							$('#resume-link').attr('href', 'https://docs.google.com/document/d/1Qtf19ZW47kYCcm06HFqylTafhlyXRyVCyDHD5wHeUck/preview');
 							return;
 						}	
 						
