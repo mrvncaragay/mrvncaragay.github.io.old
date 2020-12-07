@@ -37,8 +37,8 @@ export const contact = `
         <li>
           <h3>Social</h3>
           <ul class="icons">
-            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/mrvncaragay" taget="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://linkedin.com/in/mrvncaragay" taget="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
           </ul>
         </li>
       </ul>

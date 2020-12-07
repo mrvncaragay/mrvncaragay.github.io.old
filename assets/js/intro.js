@@ -1,7 +1,8 @@
 export const intro = `<div style="display: flex" class="inner">
   <div class="intro-summary">
     <h1>Hello,</h1>
-    <h1>I'm Marvin Caragay.</h1>
+    <h1>I'm Marvin Caragay. </h1>
+    <a href="https://github.com/mrvncaragay" target="_blank" class="icon brands fa-github fa-2x"><span class="label">GitHub</span></a>
     <h5>Software Engineer</h5>
     <br>
     <h5>
